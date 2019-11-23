@@ -1,0 +1,25 @@
+div{
+    border: solid 2px blue;
+    min-height: 20px;
+}
+
+div.row{
+    border: solid 2px green;
+    min-height: 20px;  
+}
+
+div.foto{
+    background-color:black ;
+    min-height: 150px;
+    align-items: center;
+}
+
+div.descricao{
+    background-color:pink ;
+    min-height: 150px;
+}
+
+div.preco{
+    background-color:purple ;
+    min-height: 150px;
+}

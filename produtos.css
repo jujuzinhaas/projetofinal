@@ -1,0 +1,65 @@
+#produto1{
+	margin-right: 80px;
+	margin-left: 150px;
+}
+
+#Nome{
+	margin-right: 2px;
+	font-family: Marvel, sans-serif;
+	text-align: center;
+
+}
+
+#Preço{
+	margin-right: 2px;
+	font-family: Marvel, sans-serif;
+	text-align: center;
+}
+
+.botao2{
+	background-color: #F2DA5E;
+  	color: white;
+  	border: 2px solid #F2DA5E;
+	width: 88px;
+	height: 65px;
+	margin-left: 215px;
+	margin-top: 80px;
+}
+
+#aa{
+	font-family: Marvel, sans-serif;
+	text-align: center;
+}
+
+#caixa{
+	width: 45px;
+}
+
+.botao3{
+	background-color: #F2DA5E;
+  	color: white;
+  	border: 2px solid #F2DA5E;
+	width: 88px;
+	height: 65px;
+	margin-left: 50px;
+	margin-top: 80px;
+
+}
+
+@font-face {
+	font-family: 'Marvel';
+	src: url('../fonts/Marvel-Regular.ttf');
+}
+
+#compras{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo{
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    

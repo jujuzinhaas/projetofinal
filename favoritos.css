@@ -1,0 +1,150 @@
+
+
+#cabeca{
+	background: #9AD9C2;
+	color: #ffff;
+    /*height: 50px;*/
+  	text-align: center ;
+	font-family: 'Comfortaa', cursive;
+    font-size: 27px;
+    /*font-style:bold;*/
+    padding: 5px;
+}
+#cabeca a:link{
+    color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+#cabeca a:visited{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+#cabeca a:hover  {
+	color:#F29544;
+	background-color: transparent;
+	text-decoration: none; 
+}
+
+#cabeca a:active {
+	color: #F29544;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+
+#banner{
+	margin-top: 20px ;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Comfortaa', cursive;
+	color: #F29544 ;  
+	border: 1px solid #F29544 ;
+	padding: 5px;
+}
+#banner h1{
+	font-family:'Shadows Into Light Two', cursive;
+	color: #9AD9C2;
+	font-size:65px;
+
+}
+#banner button{
+    background-color: #F2DA5E;
+    color: white;
+    border: 2px solid #F2DA5E;
+  }
+#produtos {
+	margin-top: 20px ;
+	padding:0px;
+	/*border: 1px solid #F29544 ;*/
+}
+
+#produtos div {
+	margin-bottom: 15px;
+	; 
+}
+#produtos div a{
+	/* display: block;
+	border: 1px solid #F29544 ;
+	padding: 10px; */
+	/* float: left; */
+}
+#produtos .botao {
+	display: block; 
+	border: 1px solid #F29544 ; 
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	
+}
+#produtos .botao p{
+	display: none; 
+	position: absolute;
+	color: #16857A ;
+	font-size: 20px;
+	font-family: 'Comfortaa', cursive;
+	
+
+	
+   
+}
+#produtos .botao input {
+	padding: 0px;
+	margin: 5px;
+	
+}
+
+#produtos .botao label{
+	font-size: 20px;
+	font-family: 'Comfortaa', cursive;
+}
+
+#produtos .botao strong{
+	font-family: 'Comfortaa', cursive;
+	color: #16857A ;
+	font-size: 20px;
+
+}
+
+#produtos .botao:hover img{
+	opacity: 0.3;
+} 
+
+#produtos .botao:hover p{
+	display: inline-flex; 
+	position: unset; 
+	text-align: left;
+
+} 
+
+#ircarrinho{
+	margin-top: 20px ;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Comfortaa', cursive;
+	color: rgb(95, 90, 86) ;  
+	/* border: 1px solid #F29544 ; */
+	padding: 5px;
+	background-color:#9AD9C2;
+
+}
+#ircarrinho h1{
+	font-family: 'Shadows Into Light Two', cursive;
+	color: #9AD9C2;
+	font-size:65px;
+
+}
+#ircarrinho .btncarrinho{
+	color: white;
+	background-color: #F29544;
+	font-size: 30px;
+	font-family: 'Comfortaa', cursive;
+    font-size: 27px;
+	
+}
+
+/* @media ( max-width: 700px){
+	#cabeca{
+		font-size: 23px;
+	}
+} */

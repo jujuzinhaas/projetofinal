@@ -1,0 +1,103 @@
+    body {
+        /* Location of the image */
+        background-image: url(../img/fundo.png);
+        
+        /* Background image is centered vertically and horizontally at all times */
+        background-position: center center;
+        
+        /* Background image doesn't tile */
+        background-repeat: no-repeat;
+        
+        /* Background image is fixed in the viewport so that it doesn't move when 
+           the content's height is greater than the image's height */
+        background-attachment: fixed;
+        
+        /* This is what makes the background image rescale based
+           on the container's size */
+        background-size: cover;
+        
+        /* Set a background color that will be displayed
+           while the background image is loading */
+        background-color: #464646;
+      }
+     
+
+
+
+#cabeca{
+	background: #9AD9C2;
+	color: #ffff;
+    /*height: 50px;*/
+  	text-align: center ;
+	font-family: 'Comfortaa', cursive;
+    font-size: 27px;
+    /*font-style:bold;*/
+    padding: 5px;
+}
+#cabeca a:link{
+    color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+#cabeca a:visited{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+#cabeca a:hover  {
+	color:#F29544;
+	background-color: transparent;
+	text-decoration: none; 
+}
+
+#cabeca a:active {
+	color: #F29544;
+	background-color: transparent;
+	text-decoration: none;
+}
+#banner a:link{
+    color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+#banner a:visited{
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+#banner a:hover  {
+	color:#F29544;
+	background-color: transparent;
+	text-decoration: none; 
+}
+
+#banner a:active {
+	color: #F29544;
+	background-color: transparent;
+	text-decoration: none;
+}
+#banner{
+	margin-top: 20px ;
+	text-align: center; 
+	font-size: 30px;
+	font-family: 'Comfortaa', cursive;
+	color: #F29544 ;  
+	border: 1px solid #F29544 ;
+	padding: 5px;
+}
+#banner h1{
+	font-family: 'Shadows Into Light Two', cursive;
+	color: #9AD9C2;
+	font-size:65px;
+}
+#banner button{
+    background-color: #F2DA5E;
+    color: white;
+    border: 2px solid #F2DA5E;
+  }
+
+@media ( max-width: 700px){
+	#cabeca{
+		font-size: 23px;
+	}
+}

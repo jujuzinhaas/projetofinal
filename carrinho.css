@@ -1,0 +1,251 @@
+.menu{
+	background: #9AD9C2;
+	color: #ffff;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	font-family:'Comfortaa', cursive;
+	font-size: 23px;
+}
+
+#logo{
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+#carrinho{
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    
+    }
+.botao1{
+      background-color: #F2DA5E;
+      color: white;
+      border: 2px solid #F2DA5E;
+    }
+    
+.titulo1{
+        font-family:'Shadows Into Light Two', cursive;
+        color: #9AD9C2;
+        font-size:65px;
+    }
+    
+a:link{
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+a:visited{
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+a:hover {
+        color:#F29544;
+        background-color: transparent;
+        text-decoration: none; 
+    }
+    
+a:active{
+        color: #F29544;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+
+.tabela{
+        height: 400px;
+        width: 500px;
+        text-align: center;
+        font-size: 30px;
+        font-family:'Comfortaa', cursive;
+        color: #F29544 ;  
+        margin: auto;
+          width: 60%;
+          border: 1px solid #F29544 ;
+        padding: 10px;
+          
+    }
+#compras{
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+    #cabeca{
+      background: #9AD9C2;
+      color: #ffff;
+        /*height: 50px;*/
+        text-align: center ;
+      font-family: 'Comfortaa', cursive;
+        font-size: 27px;
+        /*font-style:bold;*/
+        padding: 5px;
+    }
+    #cabeca a:link{
+        color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    #cabeca a:visited{
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    #cabeca a:hover  {
+      color:#F29544;
+      background-color: transparent;
+      text-decoration: none; 
+    }
+    
+    #cabeca a:active {
+      color: #F29544;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    
+    #banner{
+      margin-top: 20px ;
+      text-align: center;
+      font-size: 30px;
+      font-family:'Comfortaa', cursive;
+      color: #F29544 ;  
+      border: 1px solid #F29544 ;
+      padding: 5px;
+    }
+    #banner h1{
+      font-family: 'Shadows Into Light Two', cursive;
+      color: #9AD9C2;
+      font-size:65px;
+    
+    }
+    #banner button{
+        background-color: #F2DA5E;
+        color: white;
+        border: 2px solid #F2DA5E;
+      }
+    #produtos {
+      margin-top: 20px ;
+      padding:2px;
+      border: 1px solid #F29544 ; 
+      
+      
+      
+      /*border: 1px solid #F29544 ;*/
+    }
+    
+    #produtos div {
+      text-align: center;
+      align-items: center;
+      font-family: 'Comfortaa', cursive;
+      font-size: 15px;
+      color: #16857A ;
+     
+      
+    }
+    #produtos div p{
+      font-family: 'Comfortaa', cursive;
+      color: #16857A ;
+      font-size: 25px;
+    }
+      #produtos  input {
+      padding: 0px;
+      margin: 5px;
+     max-width: 40%;
+     text-align: center;
+     display: inline-block;
+
+    }
+
+
+    #produtos div a{
+      /* display: block;
+      border: 1px solid #F29544 ;
+      padding: 10px; */
+      /* float: left; */
+    }
+    #produtos div img{
+     
+    }
+    #produtos .botao {
+     
+    }
+
+#produtos div input{
+  font-family: 'Comfortaa', cursive;
+  color: #16857A ;
+font-size: 18px;
+
+}
+#produtos #preco{
+  font-family: 'Comfortaa', cursive;
+    color: #16857A ;
+  font-size: 18px;
+
+}
+  
+    #produtos .botao p{
+      display: block; 
+      /* position: absolute; */
+      
+    
+      
+       
+    }
+  
+    
+    #produtos .botao:hover img{
+      /* opacity: 0.3; */
+    } 
+    
+    #produtos .botao:hover p{
+      /* display: inline-flex; 
+      position: unset; 
+      text-align: left; */
+    } 
+    
+    #ircarrinho{
+      margin-top: 20px ;
+      text-align: center;
+      font-size: 30px;
+      font-family:'Comfortaa', cursive;
+      color: rgb(95, 90, 86) ;  
+      /* border: 1px solid #F29544 ; */
+      padding: 5px;
+      background-color:#9AD9C2;
+    
+    }
+    #ircarrinho h1{
+      font-family: 'Shadows Into Light Two', cursive;
+      color: #9AD9C2;
+      font-size:65px;
+    
+    }
+    #ircarrinho .btncarrinho{
+      color: white;
+      background-color: #F29544;
+      font-size: 30px;
+      font-family: 'Comfortaa', cursive;
+        font-size: 27px;
+      
+    }
+    #ircarrinho .btncarrinho2{
+      background-color: white;
+      color: #F29544;
+      font-size: 30px;
+      font-family: 'Comfortaa', cursive;
+        font-size: 27px;
+      
+    }
+    
+    /* @media ( max-width: 700px){
+      #cabeca{
+        font-size: 23px;
+      }
+    } */
